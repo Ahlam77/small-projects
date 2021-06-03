@@ -1,0 +1,68 @@
+/* - change color of all to ( red ) */
+h1{
+    color: red;
+}
+/* - change color of only 2 elements to (blue)  */
+.paregraph{
+    color: blue;
+}
+/* -  change color of only 1 element to ( yellow )  */
+#yal{
+    color: yellow;
+}
+/* -  - change color of all to ( red ) , with 3 different ways  */
+h1,
+button {
+    color: red;
+    color: #ff0000;
+    color: rgb(255, 0, 0);
+    color: hsl(0, 100%, 50%);
+
+}
+
+/* -  style the first p in the section into ( blue )  */
+.section >p{
+    color: blue;
+}
+/* style all p inside section into ( red ) */
+div p{
+color: red;
+}
+/* style the first p after the section into ( yellow )  */
+section+p {
+    color: yellow;
+}
+/* style all p after the section into ( aqua )   */
+section ~p{
+    color: aqua;
+}
+/* -  select only h1 with class ” a ” and change color to ( red )  */
+h1.a {
+    color: red;
+}
+/* -  - in this paragraph *change first letter into ( red )   */
+
+div::first-letter {
+    color: red;
+}
+/* - change first line into ( blue )    */
+.nimo::first-line {
+    color: blue;
+}
+/* - make new div and set height to 100vh    */
+.img {
+    height: 100vh;
+    background-image: url(img/Untitled.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px 200;
+}
+
+/* - make h1 and style color to ( red ) 
+Make hover to this h1 color to ( blue )  */
+.name{
+    color: red;
+}
+.name:hover{
+    color: blue;
+}

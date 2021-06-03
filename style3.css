@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+#header {
+    height: 70vh;
+    background-image: url(img/store.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    
+}
+.container img{
+width: 70px;
+height: 70px;
+padding: 0;
+float: left;
+padding-left:20px ;
+
+}
+.nav_link{
+    background-color: grey;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+    font-size: 20px;
+    
+}
+
+li a {
+    display: block;
+    color: rgb(238, 235, 235);
+    padding: 20px 16px;
+    text-decoration: none;
+    overflow-y: auto;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.but{
+   display: block;
+    float: right;
+     margin-left: 10px;
+     color: rgb(238, 20, 191);
+}
+.but li a{
+    color: rgb(204, 10, 162);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px  white;
+
+}
+#header h1{
+    color: rgb(93, 92, 92);
+    font-size: 70px;
+    padding-top: 180px;
+    margin-left: 40px;
+      text-shadow: 5px 2px 3px black;
+      padding-bottom: 70px;
+
+}
+.button {
+    height: 55px;
+    width: 250px;  
+     position: relative;
+background-color: #e7e7e7;
+color: rgb(236, 202, 9);
+ padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 25px;
+margin: 10px ;
+cursor: pointer;
+text-shadow: 4px 3px 4px black;
+margin-left: 50px;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+background-color: violet;
+border: 3px solid rgb(98, 97, 97);
+}
+.container_tab {
+    background-color: #ffebcd;
+}
+.container_tab h1 {
+    padding-top: 50px;
+    color: rgb(140, 139, 139);
+    font-size: 70px;
+    text-align:center;
+    text-shadow: 5px 2px 3px black;
+    padding-bottom: 70px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    padding: 44px;
+    margin: 40px;
+    
+    
+    
+}
+
+th,
+td {
+    height: 50px;
+      font-size: 20px;
+      font-weight: bolder;
+    
+}
+
+td {
+    text-align: center; 
+    width: auto;
+    
+}
+img{
+    width: 150px;
+    height: 20vh;
+    padding: 5px;
+    margin: 10px;
+    
+}
+tr:nth-child(even) {
+    background-color: rgb(110, 107, 107);
+   
+}
+tr:nth-child(odd) {
+    color: gray;
+}
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.odd {
+   text-decoration-line: line-through;
+}
+.footer p {
+    height: 90px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
